@@ -1,0 +1,72 @@
+.infoCinema {
+    background-color: black;
+    padding-top: 40px;
+
+}
+
+.container_info {
+    width: 78%;
+    margin: 0 auto;
+}
+
+.fons_black {
+    background-color: black;
+    height: 100vh;
+}
+
+.flex_infoCinema {
+    display: flex;
+
+}
+
+.block{
+    width: 280px;
+}
+
+.block img {
+    border-radius: 10px;
+}
+
+.block2 {
+    padding-top: 10px;
+    padding-left: 40px;
+}
+
+.block2 > h2 {
+    color: white;
+    font-weight: 600;
+}
+
+.text_info {
+    padding-top: 10px;
+}
+
+.text_info > p{
+    color: white;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.age {
+    color: white;
+    border: 1px solid white;
+    padding: 4px 4px;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: 13px;
+    border-radius: 4px;
+    height: 24px;
+}
+
+.text_post {
+    display: flex;
+}
+
+.text_post > p {
+    color: #c9c9c9;
+    width: 160px;
+}
+
+.text_post > div {
+    color: white;
+}

@@ -1,0 +1,229 @@
+
+* {
+  font-family: SimSun, sans-serif;
+}
+a {
+  color: white!important;
+}
+.header__header_cinema {
+  background-color: #1a082c;
+  height: 82px;
+  padding-left: 40px;
+  padding-right: 30px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.header__header_cinema .logo > img {
+  width: 170px;
+  height: 170px;
+}
+.header__header_cinema .search {
+  padding-right: 50px;
+  cursor: pointer;
+}
+
+.header__header_cinema .search > div {
+  display: flex;
+}
+
+.header__header_cinema .search > div > p{
+  padding-left: 30px;
+  padding-top: 26px;
+  font-size: 18px;
+}
+.navBar {
+  background-color: #12041e;
+}
+.navBar__container_navbar {
+  width: 80%;
+  margin: 0 auto;
+  padding-top: 14px;
+  padding-bottom: 14px;
+}
+.navBar .ant-menu-item-selected {
+  color: white!important;
+}
+.navBar .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item:hover::after,
+.navBar .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu:hover::after,
+.navBar .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-active::after,
+.navBar .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-active::after,
+.navBar .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-open::after,
+.navBar .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-open::after,
+.navBar .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-item-selected::after,
+.navBar .ant-menu-horizontal:not(.ant-menu-dark) > .ant-menu-submenu-selected::after {
+  border-bottom: 2px solid #a076f6!important;
+}
+.scroll {
+  background-color: black;
+}
+.scroll__fons {
+  height: 560px;
+  padding-top: 30px;
+}
+.scroll .image {
+  width: 100%;
+}
+.scroll .image img {
+  width: 500px;
+  height: 350px;
+  border: 10px solid black;
+  border-radius: 34px;
+  cursor: pointer;
+}
+.scroll .image h1 {
+  position: absolute;
+  color: white;
+  font-weight: 600;
+  font-size: 28px;
+  margin: -54px 0px 0px 30px;
+  text-shadow: #FC0 1px 0 10px;
+}
+.scroll .image > div {
+  padding-top: 346px!important;
+}
+.scroll__container {
+  padding-top: 30px;
+  padding-left: 120px;
+}
+.scroll__container .text-font h2 > a {
+  display: flex;
+}
+.scroll__container .text-font h2 > a .mx {
+  display: flex;
+  align-items: center;
+  padding-left: 10px;
+}
+.scroll__container .images_top {
+  padding-bottom: 50px;
+}
+.scroll__container .images_top img {
+  width: 240px;
+  height: 320px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.slider-single-content  > div{
+  position: relative;
+}
+.title_text {
+  position: absolute;
+  width: 100%;
+  bottom: 20px;
+}
+.title_text > div {
+  display: flex;
+  justify-content: space-between;
+  line-height: 0.4;
+  padding-left: 10px;
+  padding-right: 15px;
+}
+.title_text > div .flex_text .title {
+  color: white;
+  font-weight: 700;
+  font-size: 30px;
+}
+.title_text > div .flex_text .time {
+  align-self: center;
+  color: white;
+  font-size: 16px;
+  font-weight: 300;
+}
+.title_text > div .svg {
+  display: flex;
+  align-self: center;
+  color: white;
+  cursor: pointer;
+}
+.scroll__move {
+  cursor: pointer;
+}
+
+.scroll__move > img {
+  border-radius: 10px;
+}
+
+
+
+/*about*/
+
+.block_gid{
+  position: relative;
+  padding-top: 20px;
+}
+
+.block_map {
+  position: absolute;
+  width: 320px;
+  height: 220px;
+  background-color: black;
+  top: 150px;
+  right: 0;
+}
+
+.text_map {
+  padding: 20px;
+}
+
+.text_map  > h4{
+  color: white;
+}
+
+.text_map  > p{
+  color: white;
+}
+
+.fons_map {
+  background-color: #181817;
+  width: 100%;
+}
+
+.text_date {
+  padding-left: 20px;
+  padding-top: 20px;
+}
+
+.text_date > p {
+  color: white;
+  font-weight: 300;
+}
+
+.text-description {
+  color: white;
+  font-size: 16px;
+  padding-bottom: 40px;
+}
+
+/*cinema*/
+
+.blockCinema {
+  padding-top: 20px;
+}
+
+.block_card_cinema {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.block_card_cinema > div {
+  padding: 10px;
+}
+
+.block_card_cinema > div  > img{
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+.flex_carousel {
+  display: flex;
+  overflow: scroll;
+}
+
+.flex_carousel::-webkit-scrollbar {
+  width: 0;
+}
+
+.flex_carousel > div {
+  padding: 8px;
+}

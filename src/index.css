@@ -1,0 +1,151 @@
+body {
+    margin: 0;
+}
+
+span:hover{
+    color: white!important;
+}
+
+.fons{
+    background-color: #12041e;
+    padding-top: 40px;
+}
+
+.react-3d-carousel .slider-container .slider-content .slider-single .slider-single-content img{
+    height: 450px!important;
+    border-radius: 20px;
+}
+
+.react-3d-carousel .slider-container .slider-right div{
+    border: none!important;
+}
+
+.react-3d-carousel .slider-container .slider-left{
+    width: 150px;
+    right: 99% !important;
+}
+
+.react-3d-carousel .slider-container .slider-left div{
+    left: 84% !important;
+}
+
+.react-3d-carousel .slider-container .slider-right{
+    width: 150px;
+    left: 99% !important;
+}
+
+.fa-arrow-left {
+    margin-left: -10px;
+}
+
+.fa-arrow-right{
+    margin-left: 10px;
+}
+
+.react-3d-carousel .slider-container .slider-left div{
+    border: none!important;
+}
+
+.video-react.video-react-fluid, .video-react.video-react-16-9, .video-react.video-react-4-3{
+    width: 100%!important;
+    height: 500px;
+}
+.video-react .video-react-big-play-button{
+    top: auto;
+    left: auto;
+    right: 70px;
+    bottom: 10px;
+    width: 50px!important;
+    height: 45px!important;
+    border-radius: 100%;
+
+}
+
+.video-react .video-react-control:before, .video-react .video-react-big-play-button:before {
+    top: -2px!important;
+}
+
+.video-react .video-react-poster{
+    background-size: 100% 100%;
+    border-radius: 20px;
+}
+
+.video-react .video-react-video {
+    border-radius: 20px;
+}
+
+.flexText{
+    display: flex;
+    justify-content: space-between;
+    margin-top: -65px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.flexText > h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.btn {
+    align-self: center;
+}
+
+.textWhite {
+    position: absolute;
+    display: flex;
+    bottom: 10px;
+    left: 20px;
+    justify-content: space-between;
+    align-items: end;
+}
+
+.textWhite > h2 {
+    color: white;
+    font-weight: bold;
+}
+
+.textWhite > div {
+    display: flex;
+}
+
+.btn_play {
+    cursor: pointer;
+    padding-bottom: 14px;
+}
+
+.video-react-has-started .video-react-control-bar{
+    display: none;
+}
+
+.textSound {
+    position: absolute;
+    bottom: 12px;
+    right: 10px;
+    color: white;
+    cursor: pointer;
+}
+
+.react-multi-carousel-list{
+    height: 415px;
+}
+
+.react-multi-carousel-dot button{
+    border-width: 1px!important;
+    width: 8px!important;
+    height: 8px!important;
+    border-color: black!important;
+}
+
+.example {
+    margin: 20px 0;
+    margin-bottom: 20px;
+    padding: 30px 50px;
+    text-align: center;
+    background: rgba(0, 0, 0, 0.05);
+    border-radius: 4px;
+}
+.example {
+    background: rgba(255,255,255,0.08);
+}
+
