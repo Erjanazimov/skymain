@@ -43,7 +43,7 @@ const Cinema = ({dataMove, title}) => {
         if (title === "Фильмы с высоким рейтингом") {
             setTimeout(() => {
                 dispatch(fetchMove({id: count}))
-            }, 1500)
+            }, 1000)
         }
 
         if (title === "Рекомендуем вам посмотреть"){
@@ -53,11 +53,15 @@ const Cinema = ({dataMove, title}) => {
         }
     }
 
+    // useEffect(() => {
+    //     count = 1
+    // }, [])
+
 
     return (
-        <div className="container">
+        <div className="container_glob">
             <div className="blockCinema">
-            <h1 className="text-white">{title}</h1>
+            <h1 className="textCinema">{title}</h1>
                 <InfiniteScroll
                     dataLength={contentDuplicates.length}
                     next={fetchMoreTrending}

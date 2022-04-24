@@ -23,7 +23,7 @@ const CarouselImages = ({title, data, link}) => {
             <div className="text-font">
                 <h2>
                     <Link to={link}>
-                        <p>{title}</p> <p className="mx"><RightCircleFilled /> </p>
+                        <p className="text_pozt">{title}</p> <p className="mx"><RightCircleFilled /> </p>
                     </Link>
                 </h2>
             </div>

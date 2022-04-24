@@ -83,11 +83,8 @@ const RekItem = ({ data }) => {
         }
       })
 
-    }, 3000)
+    }, 1000)
   };
-
-
-
 
 
   const pauseHandler = () => {
@@ -178,9 +175,9 @@ const RekItem = ({ data }) => {
         poster={data.poster_url}
         controls={false}
         muted="muted"
+        className="blockCarousel"
         style={{
         background: "black",
-        height: "510px",
         borderRadius: "20px"
       }}
     >
@@ -191,13 +188,12 @@ const RekItem = ({ data }) => {
           <div className="flex_text">
             <p className="title">{data.title}</p>
             <div data-id={data.id} id="time" className="time">
-              <p>
-                Длительность:
-              {` ${data.duration.split(":")[0].slice(1)} ч. ${data.duration.split(":")[1]} мин `}
-              </p>
-              <p>
-                Начало сеанса: {myDateString}
-              </p>
+              <span>
+              {data.duration}
+              </span> ,
+              <span>
+                {myDateString}
+              </span>
             </div>
           </div>
 

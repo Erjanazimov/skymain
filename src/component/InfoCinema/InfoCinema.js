@@ -60,12 +60,12 @@ const InfoCinema = ({id, title, poster_link}) => {
                                                 <p className="inf">Возраст</p>
                                                 <div className="age">{findCinema.age}</div>
                                             </div>
-
-                                            <div className="text_post text-white">
-                                                {findCinema.description}
-                                            </div>
                                         </div>
                                     </div>
+                                </div>
+                                <div className="text-white mt-5 mb-5">
+                                    <h4 className="text-white">Про что фильм <span>{`«${title}»:`}</span></h4>
+                                    {findCinema.description}
                                 </div>
                             </div>
                         </div>

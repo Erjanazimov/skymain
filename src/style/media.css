@@ -1,0 +1,192 @@
+@media screen and (max-width: 1400px){
+
+}
+
+
+
+@media screen and (max-width: 1200px){
+    #cinema {
+        height: auto;
+    }
+
+    .scroll__fons {
+        height: 448px;
+    }
+
+    .container_glob {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .navBar__container_navbar {
+        width: 100%;
+    }
+
+    .scroll__container {
+        padding-left: 20px;
+    }
+
+    .container_info {
+        width: 100%;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+
+
+}
+
+@media screen and (max-width:  991px){
+    .scroll__fons {
+        height: 360px;
+    }
+
+}
+
+
+@media screen and (max-width: 767px){
+    .blockHeder {
+        display: none;
+    }
+
+    .dnone {
+        display: block;
+        margin-right: 15px;
+    }
+
+    .react-3d-carousel .slider-container .slider-right {
+        width: 0px!important;
+    }
+
+    .title_text > div .flex_text .title {
+        font-size: 22px;
+    }
+
+    .title_text > div .flex_text .time {
+        font-size: 12px;
+    }
+
+    #soundNot > svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    #soundPlay > svg {
+        width: 22px;
+        height: 22px;
+    }
+
+    .scroll__fons {
+        height: 310px;
+    }
+
+    .header__header_cinema .logo > img {
+        width: 120px;
+        height: 36px;
+    }
+
+    .scroll__move > img {
+        width: 140px;
+        height: 215px;
+    }
+
+
+}
+
+@media screen and (max-width: 640px){
+    .scroll__fons {
+        height: 270px;
+    }
+
+    .flex_infoCinema {
+        display: block;
+    }
+
+    .block2 {
+        padding-left: 0px;
+    }
+
+    .infoCinema {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 530px){
+    .scroll__fons {
+        height: 200px;
+    }
+
+    .text_pozt {
+        font-size: 16px;
+    }
+
+    .ant-menu-title-content {
+        font-size: 12px;
+    }
+
+    .mx {
+        font-size: 20px;
+    }
+
+    .scroll__move > img {
+        width: 130px;
+        height: 190px;
+    }
+
+    .header__header_cinema .logo > img {
+        width: 120px;
+        height: 40px;
+    }
+
+    .flex_carousel {
+        margin-top: -22px;
+    }
+
+    .menu_header > div > p {
+        font-size: 14px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .title_text > div .flex_text .title {
+        font-size: 14px;
+    }
+
+    .text-font {
+        padding-right: 20px;
+    }
+
+    #cinema {
+        border-radius: 5px!important;
+    }
+}
+
+@media screen and (max-width: 400px){
+    .scroll__fons {
+        height: 178px;
+    }
+    .block_map {
+        top: 28px
+    }
+
+}
+
+@media screen and (max-width: 360px){
+    .title_text > div .flex_text .title {
+        font-size: 16px;
+    }
+
+
+
+    .title_text > div .flex_text .time {
+        font-size: 8px;
+    }
+
+    .scroll__fons {
+        height: 146px;
+    }
+
+    .text_pozt {
+        font-size: 14px;
+    }
+
+}

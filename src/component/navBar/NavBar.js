@@ -3,10 +3,10 @@ import { Menu } from 'antd';
 import bem from "easy-bem";
 import {Link, useHistory, useLocation} from "react-router-dom";
 
-
 const NavBar = () => {
     const b = bem("navBar")
-    const [current, setCurrent] = useState("");
+    const [current, setCurrent] = useState("/");
+    const [bool, setBool] = useState(false)
     const {push} = useHistory();
     const link = useLocation();
 
@@ -16,14 +16,21 @@ const NavBar = () => {
 
     const handleClick = e => {
         setCurrent(e.key);
-        push(e.key);
+        if (e.key !== "/"){
+            push(e.key);
+        }
+
     };
+
+
     return (
         <div className={b()}>
             <div className={b("container_navbar")}>
             <Menu style={{backgroundColor: "#12041e", color: "#8c8493", fontSize: "16px", borderBottom: "white"}} onClick={handleClick} selectedKeys={current} mode="horizontal">
                 <Menu.Item key="/">
+                    <a href="/">
                         Рекомендации
+                    </a>
                 </Menu.Item>
                 <Menu.Item key="/new">
                     Новинки
